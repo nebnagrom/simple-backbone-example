@@ -11,10 +11,10 @@
         <form id="stuffForm">
             <label for="nameIn">name</label>
             <input type="text" id="nameIn" name="nameIn" value="n1"></input>
-            
             <label for="yearIn">year</label>
             <input type="number" id="yearIn" name="yearIn" value="2001"></input>
             <input type="button" id="b1" name="b1">b1</input>
+            <input type="button" id="trigEvent" name="trigEvent">trigEvent</input>
         </form>
         <div class="stuffDiv" id="stuffDiv"></div>
     </section>
@@ -23,11 +23,9 @@
         <li id="<%- name %>"><%- name %> made in <%- created %></li>
     </script>
 
-    <script src="bower_components/todomvc-common/base.js"></script>
-    <script src="bower_components/jquery/jquery.js"></script>
-    <script src="bower_components/underscore/underscore.js"></script>
-    <script src="bower_components/backbone/backbone.js"></script>
-    <script src="bower_components/backbone.localStorage/backbone.localStorage.js"></script>
-    <script src="js/doStuff2.js"></script>
+    <script src="jquery.js"></script>
+    <script src="underscore.js"></script>
+    <script src="backbone.js"></script>
+    <script src="doStuff2.js"></script>
 </body>
 </html>
